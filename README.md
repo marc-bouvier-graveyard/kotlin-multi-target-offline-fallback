@@ -35,7 +35,6 @@ POC of business logic written in Kotlin called on JVM as normal usage and fallin
 
 - another language?
 - maybe need gradle to compile multiple targets
-- 
 
 ## Resources
 
