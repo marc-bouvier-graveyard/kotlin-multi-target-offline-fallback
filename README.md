@@ -1,5 +1,5 @@
 # kotlin-multi-target-offline-fallback
-POC of business logic written in Kotlin called on JVM as normal usage and falling back to koltinscript when offline
+POC of business logic library written in Kotlin called on JVM as normal usage and falling back to koltinscript when offline
 
 # Why
 
@@ -23,6 +23,7 @@ POC of business logic written in Kotlin called on JVM as normal usage and fallin
 ## pros
 
 - business easier to test coming from java
+- null safe by default
 - can use java test tooling
 - can convert java business logic automatically in kotlin
 - can use lambdas and java 8ish feature on JVM7 target
@@ -35,7 +36,9 @@ POC of business logic written in Kotlin called on JVM as normal usage and fallin
 
 - another language?
 - maybe need gradle to compile multiple targets
+- suffixed names by kotlin not useful in JS
 
 ## Resources
 
 - [KotlinConf 2017 - Sharing [Kotlin code across platforms] is Caring! by Eugenio Marletti](https://www.youtube.com/watch?v=DctKvZOU56I)
+- Jsname annotation to name methods in javascript
