@@ -35,10 +35,11 @@ POC of business logic library written in Kotlin called on JVM as normal usage an
 ## cons
 
 - another language?
-- maybe need gradle to compile multiple targets
+- maybe need gradle to compile multiple targets and deploy on nexus 3
 - suffixed names by kotlin not useful in JS
 
 ## Resources
-
+- [Intellij 2017.3 support multiplatform targets](https://blog.jetbrains.com/idea/2017/12/intellij-idea-2017-3-support-for-kotlin-multi-platform-projects/)
 - [KotlinConf 2017 - Sharing [Kotlin code across platforms] is Caring! by Eugenio Marletti](https://www.youtube.com/watch?v=DctKvZOU56I)
-- Jsname annotation to name methods in javascript
+- Js suffixed name annotation to name methods in javascript
+- [Multiplatform projects with kotlin](https://kotlinlang.org/docs/reference/multiplatform.html)
